@@ -1,0 +1,24 @@
+h2 {
+  background-color:lightcoral;
+}
+
+#intro {
+  background-color: pink;
+}
+.list {
+  background-color: powderblue;
+}
+ 
+body {
+  background-color:lavender;
+}
+
+ p {
+   font-family:Bradley Hand, cursive;
+ }  
+
+li {
+ font-size: 20px;
+ text-align: center;
+ font-family:Bradley Hand, cursive;
+}
