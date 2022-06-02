@@ -1,0 +1,20 @@
+var size= "";
+var color= "";
+var trail= "";
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+    background(225);
+    size = prompt("How large would you like to draw?");
+  color = prompt("What color would you like to draw with?");
+    trail = prompt("Do you want to leave a trail? (yes or no)");
+}
+
+function draw() {
+  if (trail==="no"){
+    background(255);
+  }
+  stroke("black");
+  fill(color);
+  black(mouseX,mouseY,size);
+}
